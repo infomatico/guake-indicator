@@ -22,9 +22,9 @@ Boston, MA 02111-1307, USA.
 #include <dbus/dbus-glib.h>
 
 
-#define GUAKE_URI "org.guake.RemoteControl"
-#define GUAKE_PATH "/org/guake/RemoteControl"
-#define GUAKE_IFACE "org.guake.RemoteControl"
+#define GUAKE_URI "org.guake3.RemoteControl"
+#define GUAKE_PATH "/org/guake3/RemoteControl"
+#define GUAKE_IFACE "org.guake3.RemoteControl"
 
 DBusGProxy* guake_dbus_init();
 gboolean guake_dbus_send(const gchar*,const gchar*);
